@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<bode >
+    <h1 style="color:rgb(19, 19, 230);">Welcome Mr.ARAVIND </h1>
+    <input type="text" aria-colcount="10" style="color: magenta;">
+    <input type="password" title="PASSWORD" st>
+    
+</body> 
+<form action="{% url 'downloadexcel' %}" method="post">
+    {% csrf_token %}
+    
+    
+     <button type="submit" name='mybtn2' value={{excel_path}}>Download results in Excel</button>
+     </form>
